@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+a,
+.theme_color,
+.service-block .inner-box h3 a,
+.main-header .info-box .icon-box,
+.event-block .inner-box h3 a:hover,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.service-block .inner-box:hover .icon-box,
+.fact-counter .column .inner .counter-title,
+.event-block .inner-box .post-meta li a .icon,
+.event-block .inner-box .upper-box .date-outer .month,
+.causes-block .inner-box .lower-content h3 a:hover,
+.volunter-block .inner-box .lower-box h3 a:hover,
+.news-block .inner-box .lower-content h3 a:hover,
+.news-block-two .inner-box .content .post-meta li a .icon,
+.news-block .inner-box .lower-content .post-meta li a .icon,
+.news-block-two .inner-box .content .date-outer .date,
+.main-header .outer-box .search-box .form-group button,
+.news-block .inner-box .lower-content .date-outer .date,
+.main-footer .news-widget .post .text a:hover,
+.list-style-one li .icon,
+.footer-list li a:before,
+.footer-list li a:hover,
+.page-title .bread-crumb li,
+.page-title .bread-crumb li .icon,
+.page-title .bread-crumb li a:hover,
+.faq-page-section .title-box .text a,
+.testimonial-block .inner-box .upper-box h3,
+.list-style-one li a:hover,
+.service-block-two .inner-box .icon-box,
+.service-block-two .inner-box:hover h3 a,
+.urgent-causes-section .donate-column .amounts .number span,
+.main-footer .footer-bottom .footer-nav li a:hover,
+.call-to-action-section-three .title,
+.team-block .inner-box .content-column h3 a,
+.news-block-three .inner-box .lower-content .date-outer .date,
+.news-block-three .inner-box .lower-content h3 a:hover,
+.news-block-three .inner-box .lower-content .post-meta li a .icon,
+.contact-section .info-column .inner-column .icon-box,
+.main-slider-three .content-column .title,
+.main-slider-three .content-column .play-btn,
+.goal-block .inner-box .icon-box,
+.popular-causes-section-two .owl-nav .owl-prev:hover,
+.popular-causes-section-two .owl-nav .owl-next:hover,
+.event-block-two .inner-box .lower-content .post-meta li .icon,
+.event-block-two .inner-box .lower-content h3 a:hover,
+.time-counter .time-countdown .counter-column,
+.testimonial-section .owl-nav .owl-prev:hover,
+.testimonial-section .owl-nav .owl-next:hover,
+.footer-bottom-two.style-two .copyright a,
+.article-block .inner-box .overlay-box .post-meta li .icon,
+.article-block .inner-box .overlay-box h3 a:hover,
+.sidebar .popular-posts .post-info:before,
+.help-widget .list li .icon,
+.list-style-two li:before,
+.error-section h2 span,
+.event-block-three .inner-box .content-column .date-outer .month,
+.form-group .ui-button .ui-icon:before,
+.default-form .form-group .select-box .check-icon,
+.event-block-three .inner-box .content-column .post-meta li a .icon,
+.event-block-three .inner-box .content-column h3 a:hover,
+.categories-blog ul li.active a, .categories-blog ul li a:hover,
+.sidebar .popular-posts .post a, .sidebar .popular-posts .post a:hover,
+.news-block-four .inner-box .lower-content h3 a:hover,
+.news-block-four .inner-box .lower-content .date-outer .date,
+.news-block-four .inner-box .lower-content .post-meta li a .icon,
+.news-detail .inner-box .lower-content .date-outer .date,
+.news-detail .inner-box .lower-content .post-meta li .icon,
+.news-detail .inner-box .lower-content .content .social-box li a:hover,
+.sidebar-page-container .comments-area .comment .comment-reply,
+.article-section .owl-nav .owl-prev:hover, .article-section .owl-nav .owl-next:hover,
+.events-section .owl-nav .owl-prev:hover, .events-section .owl-nav .owl-next:hover,
+.gallery-section .filters .filter.active, .gallery-section .filters .filter:hover{
+	color:#ff7e00;
+}
+
+/*Background Color*/
+.footer-bottom-two,
+.btn-style-one:hover,
+.scroll-to-top:hover,
+.btn-style-two:hover,
+.btn-style-four:hover,
+.header-top-two,
+.btn-style-six:before,
+.header-top .top-right:before,
+.video-box .overlay-box span,
+.main-menu .navigation > li > a:before,
+.main-slider .owl-dots .owl-dot.active,
+.main-slider .owl-dots .owl-dot:hover,
+.causes-block .inner-box .image,
+.event-block .inner-box .post-meta:before,
+.causes-block .inner-box .image .ribbon:before,
+.call-to-action-section-two h2:before,
+.main-footer .logo-widget .social-box li a:hover,
+.main-footer .footer-widget h2:before,
+.newsletter-section .inner-container,
+.subscribe-form button:hover,
+.main-footer .footer-widget h2:after,
+.accordion-box .block .icon-outer .icon,
+.sidebar .search-box .form-group button,
+.main-menu .navigation > li > ul > li:hover > a,
+.event-block-three .inner-box .content-column .post-meta:before,
+.default-form .select-amount .select-box input[type="radio"]:checked+label,
+.main-slider-two .donate-percentage .donate-bar .bar-inner .bar,
+.main-menu .navigation > li > ul > li > ul > li:hover > a,
+.ui-state-active, .ui-widget-content .ui-state-active,
+.popular-causes-section-two .content-column .donate-percentage .donate-bar .bar-inner .bar,
+.urgent-causes-section .donate-column .donate-bar .bar-inner .bar,
+.emailed-form .form-group input[type="submit"], .emailed-form button,
+.styled-pagination li.active a, .styled-pagination li:hover a,
+.causes-single .inner-box .donates .donate-percentage .donate-bar .bar-inner .bar,
+.team-section .owl-dots .owl-dot.active, .team-section .owl-dots .owl-dot:hover,
+.news-section-two .owl-nav .owl-prev:hover, .news-section-two .owl-nav .owl-next:hover,
+.popular-causes-section .content-column .donate-percentage .donate-bar .bar-inner .bar,
+.main-slider-two .owl-dots .owl-dot.active, .main-slider-two .owl-dots .owl-dot:hover,
+.causes-block .inner-box .lower-content .donate-percentage .donate-bar .bar-inner .bar{
+	background-color:#ff7e00;
+}
+
+.news-block-four .inner-box .image .read-more:before,
+.news-block-three .inner-box .image .read-more:before,
+.news-block-two .inner-box .image-layer:before{
+	background-color:rgba(255, 126, 0, 0.90);
+}
+
+.call-to-action-section{
+	background-image: -ms-linear-gradient(left, #ff7e00 0%, #e37306 100%);
+	background-image: -moz-linear-gradient(left, #ff7e00 0%, #e37306 100%);
+	background-image: -o-linear-gradient(left, #ff7e00 0%, #e37306 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff7e00), color-stop(100, #e37306));
+	background-image: -webkit-linear-gradient(left, #ff7e00 0%, #e37306 100%);
+	background-image: linear-gradient(to right, #ff7e00 0%, #e37306 100%);
+}
+
+.btn-style-three,
+.btn-style-five,
+.gallery-block .inner-box .overlay-box:before,
+.volunter-block .inner-box .image .overlay-box:before{
+	background-image: -ms-linear-gradient(top, #ff7e00 0%, #e37306 100%);
+	background-image: -moz-linear-gradient(top, #ff7e00 0%, #e37306 100%);
+	background-image: -o-linear-gradient(top, #ff7e00 0%, #e37306 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff7e00), color-stop(100, #e37306));
+	background-image: -webkit-linear-gradient(top, #ff7e00 0%, #e37306 100%);
+	background-image: linear-gradient(to bottom, #ff7e00 0%, #e37306 100%);
+}
+
+.btn-style-five:hover,
+.btn-style-three:hover{
+	background-image: -ms-linear-gradient(bottom, #ff7e00 0%, #e37306 100%);
+	background-image: -moz-linear-gradient(bottom, #ff7e00 0%, #e37306 100%);
+	background-image: -o-linear-gradient(bottom, #ff7e00 0%, #e37306 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff7e00), color-stop(100, #e37306));
+	background-image: -webkit-linear-gradient(bottom, #ff7e00 0%, #e37306 100%);
+	background-image: linear-gradient(to top, #ff7e00 0%, #e37306 100%);
+}
+
+.main-slider-three .content-column .play-btn.ripple,
+.main-slider-three .content-column .play-btn .ripple:before,
+.main-slider-three .content-column .play-btn .ripple:after,
+.video-box .ripple, .video-box .ripple:before, .video-box .ripple:after{
+	-webkit-box-shadow: 0 0 0 0 rgba(255, 126, 0, .6);
+    -moz-box-shadow: 0 0 0 0 rgba(255, 126, 0, .6);
+    -ms-box-shadow: 0 0 0 0 rgba(255, 126, 0, .6);
+    -o-box-shadow: 0 0 0 0 rgba(255, 126, 0, .6);
+    box-shadow: 0 0 0 0 rgba(255, 126, 0, .6);
+}
+
+/*Border Color*/
+.btn-style-two:hover,
+.btn-style-one:hover,
+.btn-style-four:hover,
+.btn-style-six:hover,
+.page-title h1,
+.main-menu .navigation > li > ul,
+.main-header .info-box .icon-box,
+.emailed-form .form-group input[type="text"]:focus,
+.emailed-form .form-group input[type="tel"]:focus,
+.emailed-form .form-group input[type="email"]:focus,
+.emailed-form .form-group textarea:focus,
+.main-menu .navigation > li > ul > li > ul,
+.default-form input[type="text"]:focus,
+.default-form input[type="email"]:focus,
+.default-form input[type="password"]:focus,
+.ui-state-active, .ui-widget-content .ui-state-active,
+.news-detail .inner-box .lower-content .text blockquote,
+.styled-pagination li.active a, .styled-pagination li:hover a,
+.default-form select:focus, .default-form textarea:focus,
+.default-form .select-amount .select-box input[type="radio"]:checked+label,
+.popular-causes-section-two .content-column .donate-percentage .donate-bar .bar-inner .bar:before,
+.gallery-section .filters .filter.active, .gallery-section .filters .filter:hover,
+.causes-single .inner-box .donates .donate-percentage .donate-bar .bar-inner .bar:before,
+.popular-causes-section .content-column .donate-percentage .donate-bar .bar-inner .bar:before,
+.main-slider-two .donate-percentage .donate-bar .bar-inner .bar:before,
+.causes-block .inner-box .lower-content .donate-percentage .donate-bar .bar-inner .bar:before{
+	border-color:#ff7e00;
+}
+
+/*RGBA Color Light*/
+
+/*RGBA Color Dark*/
+
+@media only screen and (max-width: 767px){
+	
+	.main-menu .navbar-header .navbar-toggle{
+		border-color:#ff7e00;
+	}
+	
+	.main-menu .navbar-header .navbar-toggle,
+	.main-menu .navbar-collapse > .navigation,
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > a:hover,
+	.main-menu .navbar-collapse > .navigation > li > a:active,
+	.main-menu .navbar-collapse > .navigation > li > a:focus,
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
+	.header-style-two.inner-header .main-menu .navigation > li > a{
+		background-color:#ff7e00;
+	}
+	
+}
